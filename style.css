@@ -1,0 +1,95 @@
+h1 {
+    color: white;
+    text-shadow: 0 0 10px cyan, 0 0 15px cyan, 0 0 15px cyan;
+    text-align: center;
+}
+body {
+    background-color: gray;
+    
+}
+#list li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+nav ul {
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: white;
+    list-style-type: none;
+    float: right;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 60px;
+    padding: 5px;
+}
+nav li:hover {
+    cursor: pointer;
+    color: red;
+    
+}
+img {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+.Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+.container2 {
+    width: 300px;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    border: 1px solid lightblue
+}
+.container2 nav form {
+    background-color: lightblue;
+    text-align: center;
+}
+.login {
+    border: 2px solid blue;
+    background-color: white;
+    border-radius: 6px;
+    width: 50px;
+    padding: 1px;
+}
+.container2 nav form:hover {
+    cursor: pointer;
+    background-color: lightgreen;
+}
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+.container3 {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    border: 1px solid lightblue
+}
+.container3 nav form {
+    background-color: lightblue;
+    text-align: center;
+}
+.Signup {
+    border: 2px solid blue;
+    background-color: white;
+    border-radius: 6px;
+    width: 50px;
+    padding: 1px;
+}
+.container3 nav form:hover {
+    cursor: pointer;
+    background-color: lightgreen;
+}
+
+
